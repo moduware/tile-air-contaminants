@@ -1,0 +1,84 @@
+body {
+
+  background-color: white;
+}
+
+
+#wrapper {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+  body.platform-android #wrapper {
+    top: 55px; }
+.measurments-table {
+  margin-top: 20vh;
+  font-size: 1.2em !important;
+  left:5vw;
+}
+.mdl-data-table th {
+  padding: 0 4vw 4vw 4vw !important;
+}
+.mdl-data-table td {
+  padding: 3vw 4vw !important;
+  height: 0px !important;
+}
+.table-2 {
+  left:5vw;
+}
+.main-controls {
+  position:absolute;
+  left : 20%;
+  user-select :none;
+}
+.mdl-color--blue {
+  color: white !important;
+}
+.mdl-button {
+  min-width: 28vw !important; 
+}
+.continue {
+  position : absolute ;
+  top : 10%;
+  left : 60%;
+  transform : translateX(-50%) translateY(-50%);
+  color : rgba(0,0,0,0.54);
+  font-size: 14px;
+  width:66%;
+  height: 6.2%;
+}
+.continue::before {
+  content: "";
+  background-image: url(../img/blowImage.svg);
+  width: 50%;
+  height: 100%;
+  background-repeat:no-repeat;
+  display:block;
+  position:absolute;
+  left:-25%;
+}
+.footer {
+  position : absolute ;
+  top : 75%;
+  left : 50%;
+  transform : translateX(-50%) translateY(-50%);
+  background-color:#D8D8D8;
+  border-radius: 8px;
+  width: 80%;
+  font-size: 14px;
+  color: rgba(0,0,0,0.54);
+  padding : 20px;
+
+}
+.important {
+  font-weight: bold;
+  color: #D94254;
+}
+li {
+  padding-top: 1px;
+}
+
+table {
+    width: 90%;
+}
