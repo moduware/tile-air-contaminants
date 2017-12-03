@@ -12,6 +12,7 @@
     "manifest.json",
     "icon.svg",
     "index.html",
+    "node_modules/webview-tile-header/WebViewTileHeader.js",
     "css/**/*",
     "fonts/**/",
     "img/**/",
@@ -22,5 +23,8 @@
     "gulp": "^3.9.1",
     "gulp-zip": "^3.2.0",
     "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "webview-tile-header": "https://github.com/moduware/webview-tile-header"
   }
 }
